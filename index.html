@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <form action="/action_page.php">
+        <label for="">Tên Nhân Viên :</label><br>
+        <input id="name" type="text" value="" placeholder=" Nhập họ và tên...."><br>
+        <label  for="">Mã Nhân Viên :</label><br>
+        <input id="manhanvien" value=""  type="text" placeholder=" Nhập mã số nhân viên ..."><br>
+        <label for="">Lương Cơ Bản :</label><br>
+        <input type="text" id="luong" value="" placeholder=" Đơn vị tiền tệ : $"><br>
+
+        <label for="">Chức Vụ !</label><br>
+        <input type="radio" id="giamdoc" name="chucvu" value="">
+        <label for="">Giám đốc</label><br>
+        <input type="radio" id='sep'name="chucvu"   value="">
+        <label for="">Sếp</label><br>
+        <input type="radio" id='nhanvien' name="chucvu"  value="">
+        <label for="">Nhân viên</label><br>
+        
+        <label for="">Giờ Làm Trong Tháng :</label><br>
+        <input type="text" id="time" placeholder="Nhập giờ làm trong tháng.."><br>
+        
+        <input type="button" id="tongtien" value="Tính Tiền"><br>
+        <label for="">Hóa Đơn :</label><br>
+        <label for="" id="tongtienluong"></label>
+    </form>
+    <script src="/main.js"></script>
+</body>
+</html>
